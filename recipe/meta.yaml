@@ -29,11 +29,12 @@ test:
   requires:
     - pip
   commands:
-     - pip check
+    - pip check
 
 about:
   home: https://github.com/sarugaku/shellingham
-  license: ISC
+  license: ISC License
+  license_family: ISC
   license_url: https://github.com/sarugaku/shellingham/blob/master/LICENSE
   summary: Tool to Detect Surrounding Shell
   description: Shellingham detects what shell the current Python executable is running in.
