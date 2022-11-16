@@ -28,7 +28,7 @@ test:
 about:
   home: https://github.com/sarugaku/shellingham
   license: ISC (ISCL)
-  license_file: LICENSE
+  license_url: https://github.com/sarugaku/shellingham/blob/master/LICENSE
   summary: Tool to Detect Surrounding Shell
   dev_url: https://github.com/sarugaku/shellingham/tree/master
   doc_url: https://github.com/sarugaku/shellingham#readme
