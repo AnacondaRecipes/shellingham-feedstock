@@ -26,10 +26,12 @@ test:
     - shellingham.posix
 
 about:
-  home: https://pypi.org/project/shellingham
+  home: https://github.com/sarugaku/shellingham
   license: ISC (ISCL)
   license_file: LICENSE
   summary: Tool to Detect Surrounding Shell
+  dev_url: https://github.com/sarugaku/shellingham/tree/master
+  doc_url: https://github.com/sarugaku/shellingham#readme
 
 extra:
   recipe-maintainers:
