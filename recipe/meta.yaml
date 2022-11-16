@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/sarugaku/shellingham
-  license: ISC License
+  license: ISC
   license_family: OTHER
   license_url: https://github.com/sarugaku/shellingham/blob/master/LICENSE
   summary: Tool to Detect Surrounding Shell
