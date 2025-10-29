@@ -42,7 +42,7 @@ about:
   home: https://github.com/sarugaku/shellingham
   license: ISC
   license_family: OTHER
-  license_url: https://github.com/sarugaku/shellingham/blob/master/LICENSE
+  license_file: LICENSE
   summary: Tool to Detect Surrounding Shell
   description: Shellingham detects what shell the current Python executable is running in.
   dev_url: https://github.com/sarugaku/shellingham/tree/master
