@@ -1,17 +1,17 @@
-{% set version = "1.5.0" %}
+{% set version = "1.5.4" %}
 
 package:
   name: shellingham
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/shellingham/shellingham-{{ version }}.tar.gz
-  sha256: 72fb7f5c63103ca2cb91b23dee0c71fe8ad6fbfd46418ef17dbe40db51592dad
+  url: https://pypi.org/packages/source/s/shellingham/shellingham-{{ version }}.tar.gz
+  sha256: 8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
-  skip: True  # [py<37]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  skip: true  # [py<37]
 
 requirements:
   host:
